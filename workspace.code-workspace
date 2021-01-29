@@ -1,0 +1,55 @@
+{
+	"folders": [
+        {
+            "path": "./notes"
+        },
+        {
+            "path": "./projects"
+        },
+        {
+            "path": "misc"
+        },
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python",
+        "python.terminal.executeInFileDir": true,
+        "json.schemas": [
+            {
+                "fileMatch": [
+                    "info.json"
+                ],
+                "url": "https://gss-cogs.github.io/family-schemas/dataset-schema.json"
+            }
+        ],
+        "sparql-executor.endpoints": [
+            {
+                "protocol": "https",
+                "host": "staging.gss-data.org.uk",
+                "path": "/sparql",
+                "name": "pmd",
+                "authentication": {
+                    "type": "basic",
+                    "username": "",
+                    "password": ""
+                },
+                "output": "table"
+            }
+        ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Python: Current File",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal",
+                "cwd": "${fileDirname}"
+            }
+        ]
+    }
+}

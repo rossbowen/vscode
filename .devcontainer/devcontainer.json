@@ -1,0 +1,16 @@
+{
+    "name": "gssutils",
+    "image": "gsscogs/databaker",
+    "postCreateCommand": "wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.1/zsh-in-docker.sh",
+    "extensions": [
+		"ms-azuretools.vscode-docker",
+		"stardog-union.stardog-rdf-grammars",
+		"grapecity.gc-excelviewer",
+		"ms-python.python",
+		"danwhitfield.sparql-executor",
+		"ms-toolsai.jupyter",
+		"eamodio.gitlens",
+		"stardog-union.vscode-stardog-languages",
+		"janisdd.vscode-edit-csv"
+	]
+}

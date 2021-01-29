@@ -1,0 +1,8 @@
+{
+    "cSpell.ignoreWords": [
+        "csvw",
+        "mapper"
+    ],
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.terminal.executeInFileDir": true
+}
